@@ -90,7 +90,7 @@ jobs:
 ```
 ### Release Pipeline 
 
-- Connect Atrifacts from your build pipelines as per requirements.
+- Connect Artifacts from your build pipelines as per requirements.
 - It contains 2 task IIS and SQL Deployement
 - Add DB_USER and DB_PASSWORD in variables in release pipelines 
 - Assign DB user permissions for DB ownership(User Mapping), create DB (server role), Manage, Also edit securables for this user Alter any DB , Connect any DB, Connect SQL, Create any DB. 
