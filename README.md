@@ -14,7 +14,7 @@ Here how current Azure pipelines are configured right now.
 ### Release Pipeline 
 
 - Connect Artifacts from your build pipelines as per requirements.
-- It contains 2 task IIS and SQL Deployement
+- It contains 2 stages  IIS and SQL Deployement
 - Add DB_USER and DB_PASSWORD in variables in release pipelines 
 - Assign DB user permissions for DB ownership(User Mapping), create DB (server role), Manage, Also edit securables for this user Alter any DB , Connect any DB, Connect SQL, Create any DB. 
 - Also allow it to sign in SQL Server Authentication.
